@@ -1,0 +1,10 @@
+C:\Users\otavio.morais\source\repos\TrucoCSharp\bin\Debug\TrucoCSharp.exe.config
+C:\Users\otavio.morais\source\repos\TrucoCSharp\bin\Debug\TrucoCSharp.exe
+C:\Users\otavio.morais\source\repos\TrucoCSharp\bin\Debug\TrucoCSharp.pdb
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.csprojAssemblyReference.cache
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.Properties.Resources.resources
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.csproj.GenerateResource.cache
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.exe
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.pdb
+C:\Users\otavio.morais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.Form1.resources
