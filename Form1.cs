@@ -15,16 +15,9 @@ namespace TrucoCSharp
         public Form1()
         {
             InitializeComponent();
+            //carta1.BorderStyle=System.Windows.Forms.BorderStyle.None;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PanelJogadas_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
     }
 }
