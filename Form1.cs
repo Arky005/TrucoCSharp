@@ -16,6 +16,7 @@ namespace TrucoCSharp
         {
             InitializeComponent();
             //carta1.BorderStyle=System.Windows.Forms.BorderStyle.None;
+
         }
 
        

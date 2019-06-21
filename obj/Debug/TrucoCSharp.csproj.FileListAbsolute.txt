@@ -18,3 +18,13 @@ C:\Users\otavio.morais\Source\Repos\Arky005\TrucoCSharp\obj\Debug\TrucoCSharp.cs
 C:\Users\otavio.morais\Source\Repos\Arky005\TrucoCSharp\obj\Debug\TrucoCSharp.csproj.CoreCompileInputs.cache
 C:\Users\otavio.morais\Source\Repos\Arky005\TrucoCSharp\obj\Debug\TrucoCSharp.exe
 C:\Users\otavio.morais\Source\Repos\Arky005\TrucoCSharp\obj\Debug\TrucoCSharp.pdb
+C:\Users\otaviomorais\source\repos\TrucoCSharp\bin\Debug\TrucoCSharp.exe.config
+C:\Users\otaviomorais\source\repos\TrucoCSharp\bin\Debug\TrucoCSharp.exe
+C:\Users\otaviomorais\source\repos\TrucoCSharp\bin\Debug\TrucoCSharp.pdb
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.csprojAssemblyReference.cache
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.Form1.resources
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.Properties.Resources.resources
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.csproj.GenerateResource.cache
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.exe
+C:\Users\otaviomorais\source\repos\TrucoCSharp\obj\Debug\TrucoCSharp.pdb

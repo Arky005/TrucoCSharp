@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelJogador1 = new System.Windows.Forms.Panel();
-            this.panelJogadas = new System.Windows.Forms.Panel();
-            this.panelJogador2 = new System.Windows.Forms.Panel();
-            this.carta8 = new TrucoCSharp.Carta(this.components);
-            this.carta7 = new TrucoCSharp.Carta(this.components);
-            this.carta4 = new TrucoCSharp.Carta(this.components);
-            this.carta5 = new TrucoCSharp.Carta(this.components);
-            this.carta6 = new TrucoCSharp.Carta(this.components);
             this.carta1 = new TrucoCSharp.Carta(this.components);
             this.carta3 = new TrucoCSharp.Carta(this.components);
             this.carta2 = new TrucoCSharp.Carta(this.components);
+            this.panelJogadas = new System.Windows.Forms.Panel();
+            this.carta8 = new TrucoCSharp.Carta(this.components);
+            this.carta7 = new TrucoCSharp.Carta(this.components);
+            this.panelJogador2 = new System.Windows.Forms.Panel();
+            this.carta4 = new TrucoCSharp.Carta(this.components);
+            this.carta5 = new TrucoCSharp.Carta(this.components);
+            this.carta6 = new TrucoCSharp.Carta(this.components);
             this.panelJogador1.SuspendLayout();
             this.panelJogadas.SuspendLayout();
             this.panelJogador2.SuspendLayout();
@@ -56,6 +56,39 @@
             this.panelJogador1.Size = new System.Drawing.Size(959, 140);
             this.panelJogador1.TabIndex = 3;
             // 
+            // carta1
+            // 
+            this.carta1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.carta1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.carta1.Image = global::TrucoCSharp.Properties.Resources._0;
+            this.carta1.Location = new System.Drawing.Point(317, 18);
+            this.carta1.Name = "carta1";
+            this.carta1.Size = new System.Drawing.Size(79, 113);
+            this.carta1.TabIndex = 0;
+            this.carta1.Text = "carta1";
+            // 
+            // carta3
+            // 
+            this.carta3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.carta3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.carta3.Location = new System.Drawing.Point(534, 18);
+            this.carta3.MaximumSize = new System.Drawing.Size(96, 148);
+            this.carta3.Name = "carta3";
+            this.carta3.Size = new System.Drawing.Size(79, 113);
+            this.carta3.TabIndex = 2;
+            this.carta3.Text = "carta3";
+            // 
+            // carta2
+            // 
+            this.carta2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.carta2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.carta2.Location = new System.Drawing.Point(432, 18);
+            this.carta2.MaximumSize = new System.Drawing.Size(96, 148);
+            this.carta2.Name = "carta2";
+            this.carta2.Size = new System.Drawing.Size(79, 113);
+            this.carta2.TabIndex = 1;
+            this.carta2.Text = "carta2";
+            // 
             // panelJogadas
             // 
             this.panelJogadas.Controls.Add(this.carta8);
@@ -65,6 +98,28 @@
             this.panelJogadas.Name = "panelJogadas";
             this.panelJogadas.Size = new System.Drawing.Size(959, 276);
             this.panelJogadas.TabIndex = 5;
+            // 
+            // carta8
+            // 
+            this.carta8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.carta8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.carta8.Location = new System.Drawing.Point(432, 151);
+            this.carta8.MaximumSize = new System.Drawing.Size(96, 148);
+            this.carta8.Name = "carta8";
+            this.carta8.Size = new System.Drawing.Size(79, 113);
+            this.carta8.TabIndex = 3;
+            this.carta8.Text = "carta8";
+            // 
+            // carta7
+            // 
+            this.carta7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.carta7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.carta7.Location = new System.Drawing.Point(432, 12);
+            this.carta7.MaximumSize = new System.Drawing.Size(96, 148);
+            this.carta7.Name = "carta7";
+            this.carta7.Size = new System.Drawing.Size(79, 113);
+            this.carta7.TabIndex = 2;
+            this.carta7.Text = "carta7";
             // 
             // panelJogador2
             // 
@@ -77,33 +132,11 @@
             this.panelJogador2.Size = new System.Drawing.Size(959, 140);
             this.panelJogador2.TabIndex = 4;
             // 
-            // carta8
-            // 
-            this.carta8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.carta8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta8.Location = new System.Drawing.Point(432, 157);
-            this.carta8.MaximumSize = new System.Drawing.Size(96, 148);
-            this.carta8.Name = "carta8";
-            this.carta8.Size = new System.Drawing.Size(79, 113);
-            this.carta8.TabIndex = 3;
-            this.carta8.Text = "carta8";
-            // 
-            // carta7
-            // 
-            this.carta7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.carta7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta7.Location = new System.Drawing.Point(432, 6);
-            this.carta7.MaximumSize = new System.Drawing.Size(96, 148);
-            this.carta7.Name = "carta7";
-            this.carta7.Size = new System.Drawing.Size(79, 113);
-            this.carta7.TabIndex = 2;
-            this.carta7.Text = "carta7";
-            // 
             // carta4
             // 
             this.carta4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.carta4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta4.Location = new System.Drawing.Point(330, 16);
+            this.carta4.Location = new System.Drawing.Point(330, 9);
             this.carta4.Name = "carta4";
             this.carta4.Size = new System.Drawing.Size(79, 113);
             this.carta4.TabIndex = 0;
@@ -113,7 +146,7 @@
             // 
             this.carta5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.carta5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta5.Location = new System.Drawing.Point(534, 16);
+            this.carta5.Location = new System.Drawing.Point(534, 9);
             this.carta5.MaximumSize = new System.Drawing.Size(96, 148);
             this.carta5.Name = "carta5";
             this.carta5.Size = new System.Drawing.Size(79, 113);
@@ -124,45 +157,12 @@
             // 
             this.carta6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.carta6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta6.Location = new System.Drawing.Point(432, 16);
+            this.carta6.Location = new System.Drawing.Point(432, 9);
             this.carta6.MaximumSize = new System.Drawing.Size(96, 148);
             this.carta6.Name = "carta6";
             this.carta6.Size = new System.Drawing.Size(79, 113);
             this.carta6.TabIndex = 1;
             this.carta6.Text = "carta6";
-            // 
-            // carta1
-            // 
-            this.carta1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.carta1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta1.Image = global::TrucoCSharp.Properties.Resources._0;
-            this.carta1.Location = new System.Drawing.Point(319, 3);
-            this.carta1.Name = "carta1";
-            this.carta1.Size = new System.Drawing.Size(79, 113);
-            this.carta1.TabIndex = 0;
-            this.carta1.Text = "carta1";
-            // 
-            // carta3
-            // 
-            this.carta3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.carta3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta3.Location = new System.Drawing.Point(534, 3);
-            this.carta3.MaximumSize = new System.Drawing.Size(96, 148);
-            this.carta3.Name = "carta3";
-            this.carta3.Size = new System.Drawing.Size(79, 113);
-            this.carta3.TabIndex = 2;
-            this.carta3.Text = "carta3";
-            // 
-            // carta2
-            // 
-            this.carta2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.carta2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.carta2.Location = new System.Drawing.Point(432, 3);
-            this.carta2.MaximumSize = new System.Drawing.Size(96, 148);
-            this.carta2.Name = "carta2";
-            this.carta2.Size = new System.Drawing.Size(79, 113);
-            this.carta2.TabIndex = 1;
-            this.carta2.Text = "carta2";
             // 
             // Form1
             // 
